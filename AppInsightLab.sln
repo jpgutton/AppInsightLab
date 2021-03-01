@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebFE", "WebFE\WebFE.csproj", "{EC416F60-B079-4B9E-8AF8-01095EFF7157}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiBE", "ApiBE\ApiBE.csproj", "{13B85D55-58BB-4AC6-8628-8B947E4C9678}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC416F60-B079-4B9E-8AF8-01095EFF7157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC416F60-B079-4B9E-8AF8-01095EFF7157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC416F60-B079-4B9E-8AF8-01095EFF7157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC416F60-B079-4B9E-8AF8-01095EFF7157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B85D55-58BB-4AC6-8628-8B947E4C9678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B85D55-58BB-4AC6-8628-8B947E4C9678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B85D55-58BB-4AC6-8628-8B947E4C9678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B85D55-58BB-4AC6-8628-8B947E4C9678}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA8C7EAC-94AE-45DF-AB13-18946EB60265}
+	EndGlobalSection
+EndGlobal

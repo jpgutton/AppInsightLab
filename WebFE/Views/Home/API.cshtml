@@ -1,0 +1,27 @@
+﻿@model IEnumerable<WeatherForecast>
+@{
+    ViewData["Title"] = "Weather API";
+}
+<h1>@ViewData["Title"]</h1>
+
+<table class="table table-sm table-striped table-bordered m-2">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>TemperatureC</th>
+            <th>TemperatureF</th>
+            <th>Summary</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var w in Model)
+        {
+            <tr>
+                <td>@w.Date</td>
+                <td>@w.TemperatureC</td>
+                <td>@w.TemperatureF</td>
+                <td>@w.Summary</td>
+            </tr>
+        }
+    </tbody>
+</table>
