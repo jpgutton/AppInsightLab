@@ -2,9 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>30d4621a-64bd-4411-9360-98167f6d6a2c</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/ee4399cf-363f-4434-b940-30e4a4f93bbd/resourceGroups/TestingGroundGenEUS-RG/providers/microsoft.insights/components/TGEUS-Lab01-AI</ApplicationInsightsResourceId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
   </ItemGroup>
 

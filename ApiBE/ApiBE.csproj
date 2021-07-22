@@ -2,9 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>d474fda9-28fd-4594-b978-bc011e98be3a</UserSecretsId>
+    <ApplicationInsightsResourceId>/subscriptions/ee4399cf-363f-4434-b940-30e4a4f93bbd/resourceGroups/TestingGroundGenEUS-RG/providers/microsoft.insights/components/TGEUS-Lab01-AI</ApplicationInsightsResourceId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.15.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
